@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("key.json")
+  #credentials = file("keyjson")
 }
 
 module "folder" {
